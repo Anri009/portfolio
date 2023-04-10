@@ -2,21 +2,41 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
+  display: flex;
+	flex-wrap: wrap;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.project-name {
+  text-align: center;
+  margin-right: 0px;
+  padding-bottom: 30px;
+  padding-top: 24px;
+}
+
+.cards div {
+  width: 30%;
 }
 
 .card-product {
   overflow: hidden;
-  height: 120px;
+  height: 420px;
   background: white;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-  display: flex;
   align-items: center;
+  display:flex;
+  flex-flow: column;
 }
 
+
 .card-product img {
-  height: 100%;
-  width: 160px;
+  height: 30%;
+  width: 75%;
+  -o-object-fit: cover;
   object-fit: cover;
+  display: block;
+
 }
 
 .card-product h2 {
@@ -35,6 +55,7 @@
 
 .card-product .card-product-infos {
   padding: 16px;
+  text-align: center;
   &:hover {
     .external-link {
       opacity: 1;
