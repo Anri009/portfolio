@@ -13,7 +13,18 @@
   image: projects/placeholder.png
   url: https://www.google.com
 
-# - name: Final project
-#   description: Decent description of the app
-#   image: projects/placeholder.png
-#   url: https://www.google.com
+- name: Final project
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Final project
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Final project
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com
+  
