@@ -1,9 +1,14 @@
-- name: "#e26815"
+- value: "#e26815"
+  text: "red"
 
-- name: "#ffe550"
+- value: "#ffe550"
+  text: "white"
 
-- name: "#583cc2"
+- value: "#583cc2"
+  text: "black"
 
-- name: "#f7b5ce"
+- value: "#f7b5ce"
+  text: "green"
 
-- name: "#009b61"
+- value: "#009b61"
+  text: "red"

@@ -4,9 +4,9 @@
       <div id="projects">
         <h2 class="projects"> PROJECTS </h2>
         <div class="cards">
-          <% data.projects.each do |project| %>
-            <%# <div class="card-product " style= "background-color:<%= data.colors[rand(data.colors.length)].name" %>
-            <div class="card-product"　>
+          <% data.projects.each_with_index do |project, index| %>
+            <%# <% <div class="card-product style= "background-color:<%= data.colors[rand(data.colors.length)].name%>
+            <div class="card-product" style= "background-color:<%= data.colors[index % data.colors.size].value%>; color:<%= data.colors[index % data.colors.size].text%>">
               <div class="">
                 <h2 class="project-name"><%= project.name %></h2>
                 <hr class="css-13irs1z">
